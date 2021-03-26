@@ -24,7 +24,7 @@ console.log('A little about me:', me);
     created above to set its value.
   - Console.log fullName
 */
-let fullName = me.firstName + ' ' + me.lastName;
+let fullName = `${me.firstName} ${me.lastName}`;
 console.log(fullName);
 
 
@@ -43,7 +43,7 @@ console.log(me.favThreeFoods[2]);
   - Console.log your updated shoe count.
 */
 console.log(me.shoeCount);
-me.shoeCount = 13;
+me.shoeCount += 1 ;
 console.log(me.shoeCount);
 
 /* 5. Add a new property to an existing object.
